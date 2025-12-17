@@ -1,4 +1,5 @@
-arr = [4, 2, 9, 1, 7]
+#arr = [4, 2, 9, 1, 7]
+arr=list(map(int,input("enter the list ").split()));
 
 max_val = arr[0]
 min_val = arr[0]
